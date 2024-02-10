@@ -1,0 +1,30 @@
+
+@font-face {
+  font-family: body;
+  src: url(body.ttf);
+}
+body{
+	background-color:black;
+	color:white;
+	font-family: body;
+	font-size: 16px;
+}
+.logo{
+	float:right;
+	font-size: 13px;
+}
+@media only screen and (max-width: 480px) {
+  .logo {
+    font-size: 3px;
+  }
+  body{
+  	font-size:10px;
+  }
+}
+#btn{
+	color:white;
+}
+#btn:hover{
+	background-color:#ff5500;
+	color:white;
+}
